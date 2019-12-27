@@ -26,12 +26,11 @@ body {
     background-size: cover;
     height: 100%;
     color:black;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 #header img {
     padding: 20px 0 20px 0;
-    width: 100%;
 }
 
 /*ATTRACTIONS*/
