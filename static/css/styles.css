@@ -44,3 +44,11 @@ body {
     color:black;
     padding-top: 75px;
 }
+
+#footer {
+    background-color: rgba(21,31,33,0.5);
+    border-bottom: 1px solid #dedede;
+    font-family: 'Alegreya Sans', sans-serif; 
+    color: #d1d1d1;
+    padding-top: 10px;
+}
