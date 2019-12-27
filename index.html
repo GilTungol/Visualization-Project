@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.css"/>
+    
+    <!--<link rel="stylesheet" href="static/font-awesome/css/font-awesome.css"/>-->
+    
+    <script src="https://kit.fontawesome.com/bfd2352516.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">    
 
   </head>
   <body>
@@ -19,16 +22,43 @@
           <span class="navbar-toggler-icon">&#9776;</span>
         </button>
 
-        <a class="navbar-brand" href="#"><img src="static/img/mkg.png" class="img-fluid"></a>
+        <a class="navbar-brand" href="#"><img src="static/img/mkg-sm.png" class="img-fluid"></a>
 
         <div class="collapse navbar-collapse" id="navigation-bar">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="#attractions">Attractions</a></li>
             <li class="nav-item"><a class="nav-link" href="#dining">Dining</a></li>
             <li class="nav-item"><a class="nav-link" href="#weather">Weather</a></li>
           </ul>       
         </div>
     </nav>
+
+    <!-- HEADER -->
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="static/img/mkg-lg.png" class="img-fluid">
+            <h2>THINGS WORK BETTER WITH MKG</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec risus et velit interdum porta at sit amet ex. Nunc ligula lacus, maximus vel massa sed, ultrices consectetur arcu. Nulla facilisi. Donec diam orci, ornare et magna a, finibus volutpat augue. Cras gravida leo velit, vitae sollicitudin dolor suscipit et. Aenean hendrerit tincidunt nisl vel placerat. Aliquam imperdiet bibendum enim eget scelerisque. Etiam auctor ipsum mauris, ac viverra libero vehicula et. Cras bibendum, augue et lobortis consequat, ipsum ligula convallis elit, non aliquet urna quam sit amet sem. Aliquam ut mauris vehicula, vestibulum orci ac, blandit nunc.</p>
+            <p>Aliquam in mauris gravida, lobortis justo at, posuere felis. Morbi pellentesque tellus a neque tempor, vel pretium arcu varius. Suspendisse sit amet viverra elit. Morbi et ante erat. Sed ut nunc quis turpis vulputate bibendum eu et tortor. Quisque et erat lacus. Praesent in egestas dui, eu fermentum magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis fermentum venenatis enim, sit amet faucibus eros porttitor quis. Morbi porttitor non eros sed accumsan. Donec placerat justo at risus luctus, non ullamcorper augue ornare. Fusce sed dui metus. Vivamus consequat iaculis pulvinar. Duis gravida, urna vel auctor tincidunt, augue orci convallis mi, luctus convallis lectus mauris vitae diam.</p>
+            <p>Phasellus hendrerit urna eu eros efficitur maximus. Suspendisse sit amet aliquam sem. Curabitur sem mi, mattis non tellus id, euismod mollis velit. In at odio turpis. Vestibulum dignissim tellus ligula, ut eleifend metus posuere eu. Ut mollis semper lectus. Nam ut interdum nibh. Nulla pharetra pellentesque gravida. Aenean non aliquet ipsum, a ullamcorper odio. Quisque finibus, elit in porta pharetra, quam justo luctus felis, ut scelerisque enim est in enim. Morbi vitae tortor pulvinar, accumsan tortor a, tincidunt sapien. Curabitur eget gravida tellus. Aliquam erat volutpat. Proin eget risus consectetur, faucibus dui at, aliquam augue.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+
+
+        </div>
+
+        <div class="row">
+          <div class="col text-center">
+            <a href="#attractions"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END HEADER -->
 
     <!-- ATTRACTIONS -->
     <section id="attractions">
@@ -102,7 +132,7 @@
       </div>
       <div class="row">
         <div class="col text-center">
-          <a href="#attractions"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+          <a href="#header"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
