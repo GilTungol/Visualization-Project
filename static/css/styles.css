@@ -43,15 +43,15 @@ body {
 }
 
 #map_american {
-    height: 50%;
+    height: 100%;
 } 
 
-/*SECTIONS*/
-#section1, #section2, #section3, #section4, #section5 {
+/*CUISINES*/
+#all, #american, #asian, #mexican, #pizza, #sandwich, #vegetarian {
     background-size: cover;
     height: 100%;
     color:black;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 #footer {
