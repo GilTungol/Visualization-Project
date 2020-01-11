@@ -42,7 +42,7 @@ body {
 }
 
 /*SECTIONS*/
-#section1, #section2, #section3, #section4 {
+#section1, #section2, #section3, #section4, #section5 {
     background-size: cover;
     height: 100%;
     color:black;
