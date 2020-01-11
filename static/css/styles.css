@@ -37,24 +37,12 @@ body {
     padding: 0px 0 20px 0;
 }
 
-/*ATTRACTIONS*/
-#attractions {
-    background-size: cover;
-    height: 100%;
-    color:black;
-    padding-top: 50px;
+#map {
+  height: 100%;
 }
 
-/*DINING*/
-#dining {
-    background-size: cover;
-    height: 100%;
-    color:black;
-    padding-top: 50px;
-}
-
-/*WEATHER*/
-#weather {
+/*SECTIONS*/
+#section1, #section2, #section3, #section4 {
     background-size: cover;
     height: 100%;
     color:black;
