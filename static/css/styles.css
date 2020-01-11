@@ -38,10 +38,13 @@ body {
     padding: 0px 0 20px 0;
 }
 
-#map {
-  height: 100%;
-  padding-top: 100px;
+#map_all {
+    height: 100%;
 }
+
+#map_american {
+    height: 50%;
+} 
 
 /*SECTIONS*/
 #section1, #section2, #section3, #section4, #section5 {

@@ -1,0 +1,43 @@
+,EntityID,TopCuisines,CityID,City_LngName,City_Name,CountryID,Country_Name,EntityType,Latitude,Longitude,Nightlife_Index,Popularity,Population,Subzone,SubzoneID,num_restaurant
+0,118660,Fast Food,11195,Pinal County,Apache Junction,216,United States,subzone,33.407421,-111.537498,0.19,1.46,"35,840",Apache Junction,118660,57
+5,118657,American,11194,Maricopa County,Avondale,216,United States,subzone,33.4622207,-112.3122858,0,1.21,"76,238",Avondale,118657,134
+10,4324,Mexican,4324,"Benson, Arizona",Benson,216,United States,city,31.96995062,-110.3080628,0,2.14,"5,105",Benson,128479,181
+15,4323,Pizza,4323,"Bisbee, Arizona",Bisbee,216,United States,city,31.42473497,-109.9102204,0.64,1.48,"5,575",Bisbee,128476,215
+17,118627,Asian,11194,Maricopa County,Buckeye,216,United States,subzone,33.421078,-112.612583,0,0,"50,876",Buckeye,118627,54
+18,4402,Fast Food,4402,Bullhead City,Bullhead City,216,United States,city,35.11247289,-114.5979533,0.19,2.16,"39,540",Bullhead City,128716,221
+23,4320,Mexican,4320,"Camp Verde, Arizona",Camp Verde,216,United States,city,34.57410456,-111.8658115,0,0.78,"10,873",Camp Verde,128467,160
+28,198307,American,301,Phoenix,Carefree,216,United States,landmark,33.823888,-111.90874,0,0,"3,363",Cave Creek,118651,0
+31,4363,Fast Food,4363,Casa Grande,Casa Grande,216,United States,city,32.88011261,-111.7311148,1.68,2.3,"48,571",Casa Grande,128596,172
+36,118651,American,11194,Maricopa County,Cave Creek,216,United States,subzone,33.828572,-111.986521,0,0,"5,015",Cave Creek,118651,78
+39,11188,Fast Food,11188,Chandler,Chandler,216,United States,city,33.278721,-111.84464,0.16,2.3,"236,123",South Chandler,118666,565
+44,4321,Fast Food,4321,"Cottonwood, Arizona",Cottonwood,216,United States,city,34.7324851,-112.0133997,1.2,2.24,"11,265",Cottonwood,128470,461
+49,4339,Mexican,4339,"Douglas, Arizona",Douglas,216,United States,city,31.34445058,-109.5491624,0,1.9,"17,378",Douglas,128524,81
+54,198270,Pizza,301,Phoenix,El Mirage,216,United States,landmark,33.647665,-111.912744,0.16,1.21,"31,797",North Scottsdale,118678,24
+59,469,Sandwich,469,Flagstaff,Flagstaff,216,United States,city,35.19793906,-111.6354364,3.67,3.81,"65,870",Flagstaff,132646,390
+64,4355,American,4355,"Florence, Arizona",Florence,216,United States,city,33.0341178,-111.3958273,0,1.13,"25,536",Florence,128572,186
+69,118633,American,11194,Maricopa County,Fountain Hills,216,United States,subzone,33.600688,-111.728931,2.56,1.84,"22,489",Fountain Hills,118633,62
+74,11193,Fast Food,11193,Gilbert,Gilbert,216,United States,city,33.314648,-111.731703,1.72,2.18,"208,453",Gilbert,118630,388
+79,11189,Fast Food,11189,Glendale,Glendale,216,United States,city,33.530835,-112.202095,0,1.87,"226,721",Glendale,118624,442
+84,4327,Mexican,4327,Globe,Globe,216,United States,city,33.40233059,-110.787803,0,2.03,"7,532",Globe,128488,71
+89,118618,American,11194,Maricopa County,Goodyear,216,United States,subzone,33.426335,-112.422689,1.07,0.9,"65,275",Goodyear,118618,133
+94,4400,Fast Food,4400,"Kingman, Arizona",Kingman,216,United States,city,35.2175518,-114.0390804,0.04,1.63,"28,068",Kingman,128710,94
+99,4399,American,4399,Lake Havasu City,Lake Havasu City,216,United States,city,34.47871217,-114.3366348,2.49,3.51,"52,527",Lake Havasu City,128707,210
+104,118612,American,11194,Maricopa County,Litchfield Park,216,United States,subzone,33.500069,-112.35413,2.6,1.79,"5,476",Litchfield Park,118612,46
+109,126547,Fast Food,466,Tucson,Marana,216,United States,subzone,32.35424103,-111.0792519,1.68,1.57,"34,961",Marana,126547,114
+114,118615,Fast Food,11195,Pinal County,Maricopa,216,United States,subzone,33.041413,-112.002918,0,0,"43,482",Maricopa,118615,48
+117,198312,Fast Food,301,Phoenix,Mesa,216,United States,landmark,33.41493,-111.831319,0.67,2.53,"439,041",Mesa,118672,0
+122,118663,American,301,Phoenix,Paradise Valley,216,United States,subzone,33.52986077,-111.9658682,0.84,1.63,"12,820",Paradise Valley,118663,22
+127,4376,Fast Food,4376,Payson,Payson,216,United States,city,34.2379613,-111.3227195,3.36,2.87,"15,301",Payson,128638,68
+132,11192,American,11192,Peoria,Peoria,216,United States,city,33.67615,-112.250951,1.62,2.8,"154,065",Peoria,118654,304
+137,301,American,301,Phoenix,Phoenix,216,United States,city,33.447201,-112.073166,4.85,4.57,"1,445,632",Downtown,118582,2956
+142,457,Sandwich,457,Prescott,Prescott,216,United States,city,34.540024,-112.468502,3.12,3.19,"39,843",City of Prescott,160852,424
+147,118648,Fast Food,11195,Pinal County,Queen Creek,216,United States,subzone,33.245721,-111.634753,1.8,2.34,"26,361",Queen Creek,118648,119
+152,213984,Mexican,301,Phoenix,Scottsdale,216,United States,landmark,33.494768,-111.9264039,1.66,3.41,"217,385",Old Town Scottsdale,118675,11
+157,132640,Vegetarian,469,Flagstaff,Sedona,216,United States,subzone,34.86582627,-111.7824901,1.52,2.13,"10,031",Sedona,132640,101
+162,4387,Fast Food,4387,Show Low,Show Low,216,United States,city,34.24502796,-110.0337154,0,1.62,"10,660",Show Low,128671,121
+167,4334,Fast Food,4334,Sierra Vista,Sierra Vista,216,United States,city,31.54261941,-110.2764488,0,1.36,"43,888",Sierra Vista,128509,235
+172,11196,Fast Food,11196,Surprise,Surprise,216,United States,city,33.618297,-112.398004,2.02,2.64,"117,517",Surprise,118642,229
+177,198306,Pizza,301,Phoenix,Tempe,216,United States,landmark,33.429691,-111.939971,3.23,3.15,"161,719",Tempe,118639,1
+182,118636,Mexican,11194,Maricopa County,Tolleson,216,United States,subzone,33.447499,-112.256887,0,1.35,"6,545",Tolleson,118636,39
+187,201533,American,466,Tucson,Tucson,216,United States,landmark,32.217815,-110.972412,5,4.57,"520,116",Congress Street,126592,225
+192,463,American,463,Yuma,Yuma,216,United States,city,32.68931429,-114.5959706,0.37,1.72,"93,064",Yuma,160543,257
