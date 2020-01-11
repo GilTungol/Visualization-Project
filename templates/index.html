@@ -23,6 +23,7 @@
 
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar">
           <span class="navbar-toggler-icon">&#9776;</span>
@@ -41,6 +42,7 @@
           </ul>       
         </div>
     </nav>
+    <!-- END NAVBAR-->
 
     <!-- HEADER -->
     <section id="header">
@@ -63,12 +65,12 @@
     </section>
     <!-- END HEADER -->
 
-    <!-- ALL -->
+    <!-- MAPALL -->
     <section id="all">
       <div class="container">
         <div class="row">
             <div class="col wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-              <div id="map_all" style="height: 400px; width: 100%;"></div>
+              <div id="map_all"></div>
             </div>
         </div>
         <div class="row">
@@ -78,7 +80,7 @@
         </div>
       </div>
     </section>
-    <!-- END ALL -->
+    <!-- END MAPALL -->
 
     <!-- AMERICAN -->
     <section id="american">
@@ -89,7 +91,7 @@
         </div>        
         <div class="row">
             <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-              <div id="map_american"></div>
+              <div id="map_cuisine"></div>
             </div>
             <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
               <h4 align="center">Top 10</h4>
@@ -103,154 +105,146 @@
         </div>
       </div>
     </section>
-  <!-- END AMERICAN -->
+    <!-- END AMERICAN -->
 
-  <!-- ASIAN -->
-  <section id="asian">
-    <div class="container">
-      <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
-        <h2>Asian</h2>
-        <hr align="left" width="100%">
-      </div>
-      <div class="row">
-        <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-            <div id="map_sm" style="height: 400px; width: 100%;"></div>
-        </div>
-        <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
-          <h4 align="center">Top 10</h4>
-          <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
-          <a href="#mexican"><i class="fa fa-chevron-down fa-2x"  style="padding-top: 20px;" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END ASIAN -->
-
-  <!-- MEXICAN -->
-  <section id="mexican">
-    <div class="container">
-      <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
-        <h2>Mexican</h2>
-        <hr align="left" width="100%">
-      </div>
-      <div class="row">
-        <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-          <div class="col wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-            <div id="map_sm" style="height: 400px; width: 100%;"></div>
-          </div> 
-        </div>
-        <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
-          <h4 align="center">Top 10</h4>
-          <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
-          <a href="#pizza"><i class="fa fa-chevron-down fa-2x"  style="padding-top: 20px;" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END MEXICAN -->
-
-  <!-- PIZZA -->
-  <section id="pizza">
-    <div class="container">
-      <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
-        <h2>Pizza</h2>
-        <hr align="left" width="100%">
-      </div>
-      <div class="row">
-        <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-          <div class="col wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-            <div id="map_sm" style="height: 400px; width: 100%;"></div>
-          </div> 
-        </div>
-        <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
-          <h4 align="center">Top 10</h4>
-          <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
-        </div>
-  </div>
-      <div class="row">
-        <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
-          <a href="#sandwich"><i class="fa fa-chevron-down fa-2x"  style="padding-top: 20px;" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END PIZZA -->
-
-  <!-- SANDWICH -->
-  <section id="sandwich">
-    <div class="container">
-      <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
-        <h2>Sandwich</h2>
-        <hr align="left" width="100%">
-      </div>
-      <div class="row">
-        <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-          <div class="col wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-            <div id="map_sm" style="height: 400px; width: 100%;"></div>
-          </div> 
-        </div>
-        <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
-          <h4 align="center">Top 10</h4>
-          <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
-        </div>
-  </div>
-      <div class="row">
-        <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
-          <a href="#vegetarian"><i class="fa fa-chevron-down fa-2x"  style="padding-top: 20px;" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END SANDWICH -->
-
-  <!-- VEGETARIAN -->
-  <section id="vegetarian">
-    <div class="container">
-      <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
-        <h2>Vegetarian</h2>
-        <hr align="left" width="100%">
-      </div>
-      <div class="row">
-        <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-          <div class="col wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-            <div id="map_sm" style="height: 400px; width: 100%;"></div>
-          </div> 
-        </div>
-        <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
-          <h4 align="center">Top 10</h4>
-          <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
-        </div>
-  </div>
-      <div class="row">
-        <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
-          <a href="#header"><i class="fa fa-chevron-up fa-2x"  style="padding-top: 20px;" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END VEGETARIAN -->
-
-  <!-- FOOTER -->
-    <section id="footer">
-      <div container="container">
+    <!-- ASIAN -->
+    <section id="asian">
+      <div class="container">
+        <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
+          <h2>Asian</h2>
+          <hr align="left" width="100%">
+        </div>        
         <div class="row">
-          <div class="col text-center">
-            <p>© MKG 2019 - All Rights Reserved</p>
+            <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
+              <div id="map_cuisine"></div>
+            </div>
+            <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
+              <h4 align="center">Top 10</h4>
+              <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
+            </div>            
+        </div>
+        <div class="row">
+          <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
+            <a href="#mexican"><i class="fa fa-chevron-down fa-2x" style="padding-top: 20px;" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
     </section>
-  <!-- END FOOTER -->  
+    <!-- END ASIAN -->
 
-  <!-- Optional JavaScript -->
+    <!-- MEXICAN -->
+    <section id="mexican">
+      <div class="container">
+        <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
+          <h2>Mexican</h2>
+          <hr align="left" width="100%">
+        </div>        
+        <div class="row">
+            <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
+              <div id="map_cuisine"></div>
+            </div>
+            <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
+              <h4 align="center">Top 10</h4>
+              <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
+            </div>            
+        </div>
+        <div class="row">
+          <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
+            <a href="#pizza"><i class="fa fa-chevron-down fa-2x" style="padding-top: 20px;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END MEXICAN -->
+
+    <!-- PIZZA -->
+    <section id="pizza">
+      <div class="container">
+        <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
+          <h2>Pizza</h2>
+          <hr align="left" width="100%">
+        </div>        
+        <div class="row">
+            <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
+              <div id="map_cuisine"></div>
+            </div>
+            <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
+              <h4 align="center">Top 10</h4>
+              <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
+            </div>            
+        </div>
+        <div class="row">
+          <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
+            <a href="#sandwich"><i class="fa fa-chevron-down fa-2x" style="padding-top: 20px;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PIZZA -->
+
+    <!-- SANDWICH -->
+    <section id="sandwich">
+      <div class="container">
+        <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
+          <h2>Sandwich</h2>
+          <hr align="left" width="100%">
+        </div>        
+        <div class="row">
+            <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
+              <div id="map_cuisine"></div>
+            </div>
+            <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
+              <h4 align="center">Top 10</h4>
+              <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
+            </div>            
+        </div>
+        <div class="row">
+          <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
+            <a href="#vegetarian"><i class="fa fa-chevron-down fa-2x" style="padding-top: 20px;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SANDWICH -->
+
+    <!-- VEGETARIAN -->
+    <section id="vegetarian">
+      <div class="container">
+        <div class="row wow zoomIn" data-wow-delay=".5s" data-wow-duration="2s">
+          <h2>Vegetarian</h2>
+          <hr align="left" width="100%">
+        </div>        
+        <div class="row">
+            <div class="col-md-7 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s">
+              <div id="map_cuisine"></div>
+            </div>
+            <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration="2s">
+              <h4 align="center">Top 10</h4>
+              <p><img src="../static/img/Fig1.png" class="img-fluid"/></p>
+            </div>            
+        </div>
+        <div class="row">
+          <div class="col text-center wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
+            <a href="#header"><i class="fa fa-chevron-up fa-2x" style="padding-top: 20px;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END VEGETARIAN -->
+
+    <!-- FOOTER -->
+      <section id="footer">
+        <div container="container">
+          <div class="row">
+            <div class="col text-center">
+              <p>© MKG 2019 - All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- END FOOTER -->  
+
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
