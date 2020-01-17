@@ -59,3 +59,37 @@ var marker = L.marker([45.52, -122.67], {
 // Binding a pop-up to our marker
 marker.bindPopup("Hello There!");
 // -----------------------------------------------------------------------------------------------------------------------------------------
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------------
+var asianCuisine = [{
+  restaurant: "Jollibee",
+  rating: 5.0,
+},
+{
+  restaurant: "Max's",
+  rating: 3.0,
+},
+{
+  restaurant: "Gerry's Grill",
+  rating: 4.0,
+},
+{
+  restaurant: "Bario Fiesta",
+  rating: 3.5,
+},
+{
+  restaurant: "Sosing's",
+  rating: 5.0,
+}
+];
+
+d3.select("tbody")
+  .selectAll("tr")
+  .data(asianCuisine)
+  .enter()
+  .append("tr")
+  .html(function(d) {
+    return `<td>${d.restaurant}</td><td>${d.rating}</td>`;
+  });
+// -----------------------------------------------------------------------------------------------------------------------------------------
