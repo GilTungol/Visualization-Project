@@ -62,8 +62,7 @@ marker.bindPopup("Hello There!");
 
 
 // -----------------------------------------------------------------------------------------------------------------------------------------
-var asianCuisine = [
-  {
+var asianCuisine = [{
     restaurant: "Jollibee",
     rating: 5.0,
   },
