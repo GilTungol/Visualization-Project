@@ -62,26 +62,27 @@ marker.bindPopup("Hello There!");
 
 
 // -----------------------------------------------------------------------------------------------------------------------------------------
-var asianCuisine = [{
-  restaurant: "Jollibee",
-  rating: 5.0,
-},
-{
-  restaurant: "Max's",
-  rating: 3.0,
-},
-{
-  restaurant: "Gerry's Grill",
-  rating: 4.0,
-},
-{
-  restaurant: "Bario Fiesta",
-  rating: 3.5,
-},
-{
-  restaurant: "Sosing's",
-  rating: 5.0,
-}
+var asianCuisine = [
+  {
+    restaurant: "Jollibee",
+    rating: 5.0,
+  },
+  {
+    restaurant: "Max's",
+    rating: 3.0,
+  },
+  {
+    restaurant: "Gerry's Grill",
+    rating: 4.0,
+  },
+  {
+    restaurant: "Bario Fiesta",
+    rating: 3.5,
+  },
+  {
+    restaurant: "Sosing's",
+    rating: 5.0,
+  }
 ];
 
 d3.select("tbody")

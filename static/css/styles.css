@@ -49,7 +49,7 @@ body {
 } 
 
 /*CUISINE*/
-#all, #american, #asian, #mexican, #pizza, #sandwich, #vegetarian, #test {
+#all, #american, #asian, #mexican, #pizza, #sandwich, #vegetarian {
     background-size: cover;
     height: 100%;
     color:black;
